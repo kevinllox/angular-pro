@@ -1,0 +1,167 @@
+<main id="main">
+    <section class="relative bg-linear-to-br from-slate-800 to-slate-900">
+        <div class="mx-auto max-w-5xl px-6 py-20">
+            <h1 class="text-4xl/tight text-slate-300 md:text-5xl font-bold">Let’s build something great.</h1>
+            <p class="mt-4 text-slate-200 max-w-2xl">
+                Have an idea, a role, or a project in mind? I’m all ears. Send me a message and
+                I’ll get back to you as soon as possible.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="relative py-16">
+        <div class="mx-auto max-w-5xl px-6 grid lg:grid-cols-5 gap-10">
+
+            <!-- Info / Social (left) -->
+            <aside class="lg:col-span-2 space-y-6">
+                <div class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6">
+                    <h2 class="text-xl font-semibold">Contact details</h2>
+                    <ul class="mt-4 space-y-3 text-slate-300">
+                        <li class="flex items-start gap-3">
+                            <svg class="h-5 w-5 mt-0.5 text-indigo-300" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-3.33 0-10 1.67-10 5v1h20v-1c0-3.33-6.67-5-10-5z" />
+                            </svg>
+                            <span>Kevin Grande — Software Developer (Angular, TypeScript)</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="h-5 w-5 mt-0.5 text-indigo-300" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M20 4H4a2 2 0 0 0-2 2v.01L12 13l10-6.99V6a2 2 0 0 0-2-2zM2 8.2V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8.2l-9.4 6.56a2 2 0 0 1-2.2 0L2 8.2z" />
+                            </svg>
+                            <a href="mailto:hello@example.com"
+                                class="hover:text-white underline decoration-indigo-400/40 underline-offset-4">hello@example.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="h-5 w-5 mt-0.5 text-indigo-300" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6.62 10.79a15.054 15.054 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.1.36 2.29.55 3.58.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.52 21 3 13.48 3 4a1 1 0 0 1 1-1h3.51a1 1 0 0 1 1 1c0 1.29.19 2.48.55 3.58a1 1 0 0 1-.24 1.01l-2.2 2.2z" />
+                            </svg>
+                            <a href="tel:+50300000000" class="hover:text-white">+503 0000 0000</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="h-5 w-5 mt-0.5 text-indigo-300" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z" />
+                            </svg>
+                            <span>San Salvador, SV</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6">
+                    <h2 class="text-xl font-semibold">Social</h2>
+                    <ul class="mt-4 flex flex-wrap gap-3">
+                        <li><a href="https://github.com/your-user"
+                                class="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 hover:bg-white/10">GitHub</a>
+                        </li>
+                        <li><a href="https://linkedin.com/in/your-user"
+                                class="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 hover:bg-white/10">LinkedIn</a>
+                        </li>
+                        <li><a href="https://twitter.com/your-user"
+                                class="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 hover:bg-white/10">X
+                                (Twitter)</a></li>
+                        <li><a href="mailto:hello@example.com"
+                                class="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 hover:bg-white/10">Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Form (right) -->
+            <section class="lg:col-span-3">
+                <form action="/thank-you" method="post"
+                    class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 md:p-8 shadow-xl">
+                    <h2 class="text-2xl font-semibold">Send me a message</h2>
+                    <p class="mt-2 text-slate-300">
+                        I typically respond within 1–2 business days.
+                    </p>
+
+                    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Name -->
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-200">Full name</label>
+                            <input id="name" name="name" type="text" autocomplete="name" required
+                                placeholder="Your name"
+                                class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900/60 px-4 py-3 text-white placeholder-slate-500 shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400" />
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-200">Email</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required
+                                placeholder="you@example.com"
+                                class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900/60 px-4 py-3 text-white placeholder-slate-500 shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400" />
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="md:col-span-2">
+                            <label for="subject" class="block text-sm font-medium text-slate-200">Subject</label>
+                            <input id="subject" name="subject" type="text" required placeholder="What’s this about?"
+                                class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900/60 px-4 py-3 text-white placeholder-slate-500 shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400" />
+                        </div>
+
+                        <!-- Message -->
+                        <div class="md:col-span-2">
+                            <label for="message" class="block text-sm font-medium text-slate-200">Message</label>
+                            <textarea id="message" name="message" rows="6" required
+                                placeholder="Tell me about your project, timeline, and goals…"
+                                class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900/60 px-4 py-3 text-white placeholder-slate-500 shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400"></textarea>
+                        </div>
+
+                        <!-- Budget (optional) -->
+                        <div class="md:col-span-2">
+                            <label for="budget" class="block text-sm font-medium text-slate-200">Budget
+                                (optional)</label>
+                            <select id="budget" name="budget"
+                                class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900/60 px-4 py-3 text-white shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400">
+                                <option value="">Select an option</option>
+                                <option value="under-2k">Under $2k</option>
+                                <option value="2k-5k">$2k – $5k</option>
+                                <option value="5k-10k">$5k – $10k</option>
+                                <option value="10k-plus">$10k+</option>
+                            </select>
+                        </div>
+
+                        <!-- Consent -->
+                        <div class="md:col-span-2">
+                            <label class="flex items-start gap-3 text-slate-300">
+                                <input type="checkbox" name="consent" required
+                                    class="mt-1 h-4 w-4 rounded border-white/20 bg-slate-900/60 focus:ring-2 focus:ring-indigo-400" />
+                                <span>I agree to be contacted about my inquiry and accept that my information will be
+                                    used to respond.</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="mt-8 flex items-center gap-4">
+                        <button type="submit"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 px-6 py-3 font-medium text-white shadow-lg shadow-indigo-900/30 hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                            <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true">
+                                <path fill="currentColor" d="M2 21l21-9L2 3v7l15 2-15 2z" />
+                            </svg>
+                            Send message
+                        </button>
+                        <p class="text-slate-400 text-sm">You’ll receive a confirmation email if provided.</p>
+                    </div>
+
+                    <!-- No-JS notice / fallback (optional) -->
+                    <noscript>
+                        <p class="mt-4 text-sm text-slate-400">
+                            JavaScript is disabled; the form will submit with a standard page load.
+                        </p>
+                    </noscript>
+                </form>
+
+                <!-- microcopy -->
+                <p class="mt-4 text-xs text-slate-500">
+                    This site is protected by basic spam hygiene. Don’t share sensitive information.
+                </p>
+            </section>
+
+        </div>
+    </section>
+</main>
+

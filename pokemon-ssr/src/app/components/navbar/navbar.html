@@ -1,0 +1,36 @@
+<header class="sticky top-0 z-40 bg-linear-to-br from-slate-800 to-slate-900">
+    <nav class="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between" aria-label="Primary navigation">
+        <a routerLink="/" class="text-gray-200 font-semibold">Kevin Grande</a>
+        <!-- Mobile toggle (checkbox hack) -->
+        <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+        <label for="menu-toggle"
+            class="md:hidden cursor-pointer p-2 rounded-lg hover:bg-white/10 text-slate-200 peer-focus-visible:outline-2 peer-focus-visible:outline-indigo-400">
+            <svg class="h-6 w-6 peer-checked:hidden" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z" />
+            </svg>
+            <svg class="h-6 w-6 hidden peer-checked:block" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor"
+                    d="M6.4 4.9 4.9 6.4 10.5 12l-5.6 5.6 1.5 1.5L12 13.5l5.6 5.6 1.5-1.5L13.5 12l5.6-5.6-1.5-1.5L12 10.5z" />
+            </svg>
+        </label>
+
+        <!-- Desktop nav -->
+        <ul class="hidden md:flex items-center gap-6 text-slate-300">
+            <li> <a routerLink="about">About</a></li>
+            <li> <a routerLink="contact">Contact</a></li>
+            <li> <a routerLink="pokemons">Pokemons</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Mobile panel -->
+    <div
+        class="md:hidden hidden peer-checked:block px-6 pb-4 pt-2 bg-slate-800/70 backdrop-blur-md border-b border-white/10">
+        <ul class="flex flex-col gap-3 text-slate-200 text-lg">
+            <li> <a routerLink="about">About</a></li>
+            <li> <a routerLink="pokemons">Pokemons</a></li>
+
+        </ul>
+    </div>
+</header>
